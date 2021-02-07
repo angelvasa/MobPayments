@@ -1,0 +1,16 @@
+PODS:
+  - MobCommon (0.0.1)
+
+DEPENDENCIES:
+  - MobCommon (= 0.0.1)
+
+SPEC REPOS:
+  https://github.com/angelvasa/MobSpecs.git:
+    - MobCommon
+
+SPEC CHECKSUMS:
+  MobCommon: 7d31a44fb31be6ab00e8bd32f5cab50b69b50dc1
+
+PODFILE CHECKSUM: 8d92a516cd02eace504cfcc7bfcdc7029246374c
+
+COCOAPODS: 1.10.1
