@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,15 +13,13 @@
 		AB8BB21F25CFFCEE00BF8580 /* MobPayments.h in Headers */ = {isa = PBXBuildFile; fileRef = AB8BB21125CFFCEE00BF8580 /* MobPayments.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AB8BB23125CFFCFD00BF8580 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8BB23025CFFCFD00BF8580 /* AppDelegate.swift */; };
 		AB8BB23325CFFCFD00BF8580 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8BB23225CFFCFD00BF8580 /* SceneDelegate.swift */; };
-		AB8BB23525CFFCFD00BF8580 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8BB23425CFFCFD00BF8580 /* ViewController.swift */; };
-		AB8BB23825CFFCFD00BF8580 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB8BB23625CFFCFD00BF8580 /* Main.storyboard */; };
 		AB8BB23A25CFFD0100BF8580 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB8BB23925CFFD0100BF8580 /* Assets.xcassets */; };
 		AB8BB23D25CFFD0100BF8580 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB8BB23B25CFFD0100BF8580 /* LaunchScreen.storyboard */; };
 		AB8BB24625CFFD0800BF8580 /* MobPayments.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB8BB20E25CFFCEE00BF8580 /* MobPayments.framework */; };
 		AB8BB24725CFFD0800BF8580 /* MobPayments.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AB8BB20E25CFFCEE00BF8580 /* MobPayments.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		AB8BB25125CFFD3800BF8580 /* PaymentsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB8BB24E25CFFD3800BF8580 /* PaymentsView.xib */; };
-		AB8BB25225CFFD3800BF8580 /* PaymentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8BB24F25CFFD3800BF8580 /* PaymentsView.swift */; };
 		AB8BB25325CFFD3800BF8580 /* Payments.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8BB25025CFFD3800BF8580 /* Payments.swift */; };
+		AB8BB28A25D0F2D800BF8580 /* PaymentsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB8BB28825D0F2D800BF8580 /* PaymentsView.xib */; };
+		AB8BB28B25D0F2D800BF8580 /* PaymentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8BB28925D0F2D800BF8580 /* PaymentsView.swift */; };
 		CC45DAA69D145CBCBAD0C5D4 /* Pods_MobPayments_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 432484ED93506911AC915A70 /* Pods_MobPayments_Demo.framework */; };
 /* End PBXBuildFile section */
 
@@ -72,14 +70,12 @@
 		AB8BB22E25CFFCFD00BF8580 /* MobPayments-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MobPayments-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB8BB23025CFFCFD00BF8580 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB8BB23225CFFCFD00BF8580 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AB8BB23425CFFCFD00BF8580 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AB8BB23725CFFCFD00BF8580 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB8BB23925CFFD0100BF8580 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB8BB23C25CFFD0100BF8580 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB8BB23E25CFFD0100BF8580 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AB8BB24E25CFFD3800BF8580 /* PaymentsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaymentsView.xib; sourceTree = "<group>"; };
-		AB8BB24F25CFFD3800BF8580 /* PaymentsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentsView.swift; sourceTree = "<group>"; };
 		AB8BB25025CFFD3800BF8580 /* Payments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Payments.swift; sourceTree = "<group>"; };
+		AB8BB28825D0F2D800BF8580 /* PaymentsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaymentsView.xib; sourceTree = "<group>"; };
+		AB8BB28925D0F2D800BF8580 /* PaymentsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,7 +115,6 @@
 				86E631113DF506DDED322E18 /* Pods-MobPayments-Demo.debug.xcconfig */,
 				3609D35FAB0833FFF46FCB58 /* Pods-MobPayments-Demo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -148,7 +143,7 @@
 		AB8BB21025CFFCEE00BF8580 /* MobPayments */ = {
 			isa = PBXGroup;
 			children = (
-				AB8BB24D25CFFD3800BF8580 /* Main */,
+				AB8BB28725D0F2D800BF8580 /* Screens */,
 				AB8BB25025CFFD3800BF8580 /* Payments.swift */,
 				AB8BB21125CFFCEE00BF8580 /* MobPayments.h */,
 				AB8BB21225CFFCEE00BF8580 /* Info.plist */,
@@ -170,8 +165,6 @@
 			children = (
 				AB8BB23025CFFCFD00BF8580 /* AppDelegate.swift */,
 				AB8BB23225CFFCFD00BF8580 /* SceneDelegate.swift */,
-				AB8BB23425CFFCFD00BF8580 /* ViewController.swift */,
-				AB8BB23625CFFCFD00BF8580 /* Main.storyboard */,
 				AB8BB23925CFFD0100BF8580 /* Assets.xcassets */,
 				AB8BB23B25CFFD0100BF8580 /* LaunchScreen.storyboard */,
 				AB8BB23E25CFFD0100BF8580 /* Info.plist */,
@@ -188,13 +181,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		AB8BB24D25CFFD3800BF8580 /* Main */ = {
+		AB8BB28725D0F2D800BF8580 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				AB8BB24E25CFFD3800BF8580 /* PaymentsView.xib */,
-				AB8BB24F25CFFD3800BF8580 /* PaymentsView.swift */,
+				AB8BB28825D0F2D800BF8580 /* PaymentsView.xib */,
+				AB8BB28925D0F2D800BF8580 /* PaymentsView.swift */,
 			);
-			path = Main;
+			path = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -315,7 +308,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB8BB25125CFFD3800BF8580 /* PaymentsView.xib in Resources */,
+				AB8BB28A25D0F2D800BF8580 /* PaymentsView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,7 +325,6 @@
 			files = (
 				AB8BB23D25CFFD0100BF8580 /* LaunchScreen.storyboard in Resources */,
 				AB8BB23A25CFFD0100BF8580 /* Assets.xcassets in Resources */,
-				AB8BB23825CFFCFD00BF8580 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,7 +400,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB8BB25325CFFD3800BF8580 /* Payments.swift in Sources */,
-				AB8BB25225CFFD3800BF8580 /* PaymentsView.swift in Sources */,
+				AB8BB28B25D0F2D800BF8580 /* PaymentsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,7 +416,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB8BB23525CFFCFD00BF8580 /* ViewController.swift in Sources */,
 				AB8BB23125CFFCFD00BF8580 /* AppDelegate.swift in Sources */,
 				AB8BB23325CFFCFD00BF8580 /* SceneDelegate.swift in Sources */,
 			);
@@ -446,14 +437,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AB8BB23625CFFCFD00BF8580 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AB8BB23725CFFCFD00BF8580 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AB8BB23B25CFFD0100BF8580 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
