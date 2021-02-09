@@ -40,4 +40,5 @@ class PaymentsRouter: Routable {
             print("national Transfer")
         case .internationalTransferTapped: ()
         }
-    }}
+    }
+}
